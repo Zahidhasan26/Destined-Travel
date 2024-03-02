@@ -12,7 +12,7 @@ body {
     --primary-color: #f05000;
     --secondary-color: #1313181f;
     --font-color: #131318;
-    --secondary-font: #13131823;
+    --secondary-font: #13131811;
     --font-white: #FFFFFF;
     --background-pink: #fd808618;
     --background-blue: #29cdf615;
@@ -42,7 +42,9 @@ body {
 .nav-title > h2 {
       margin-left: 10px;
   }
-  
+.mobile-menu {
+    display: none;
+}  
 .nav-menu > ul {
     display: flex;
     list-style: none;
@@ -233,3 +235,43 @@ button:hover {
 .btn-lg {
     font-size: 22px;
 }
+footer {
+    background-color: var(--secondary-color);
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+}
+.fa-brands {
+    font-size: 22px;
+    color: var(--font-color);
+    margin-right: 20px;
+}
+hr {
+    width: 50%;
+}
+@media screen and (max-width:600px){
+    .width {
+        width: 100%;
+    }
+    .nav-menu {
+        display: none;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+    .mobile-menu {
+        display: inline-block;
+    }
+    .mobile-menu img{
+        width: 20px;
+    }
+    }
