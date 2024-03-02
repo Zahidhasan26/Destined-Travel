@@ -9,10 +9,10 @@ body {
 }
 /* root elements */
 :root {
-    --primary-color: #FF5400;
+    --primary-color: #f05000;
     --secondary-color: #1313181f;
     --font-color: #131318;
-    --secondary-font: #131318c2;
+    --secondary-font: #13131823;
     --font-white: #FFFFFF;
     --background-pink: #fd808618;
     --background-blue: #29cdf615;
@@ -183,6 +183,13 @@ button:hover {
     gap: 20px;
     padding: 10px;
   }
+.grid-container-6 {
+    display: grid;
+    grid-template-columns: 44% 56%;
+    gap: 20px;
+    padding: 10px;
+    margin-top: 100px;
+  }
 .image-box {
     position: relative;
     text-align: center;
@@ -198,4 +205,31 @@ button:hover {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.newsletter {
+    border: 1px solid orangered;
+    border-radius: 10px;
+    padding: 20px;
+}
+.newsletter form>input {
+    width: 90%;
+    background-color: var(--secondary-font);
+    margin: 10px 0;
+}
+.newsletter-button{
+    width: 95%;
+    margin-top: 10px;
+}
+.newsletter-img {
+    position: relative;
+}
+.special-btn {
+    font-size: 16px;
+    position: absolute;
+    bottom: 48px;
+    right: -74px;
+    transform: rotate(-30deg);
+}
+.btn-lg {
+    font-size: 22px;
 }
