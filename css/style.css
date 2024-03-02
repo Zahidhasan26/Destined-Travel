@@ -14,10 +14,9 @@ body {
     --font-color: #131318;
     --secondary-font: #131318c2;
     --font-white: #FFFFFF;
-    /* --font-size-m: 1rem;
-    --font-size-ml: 1.8rem;
-    --font-size-l: 2.8rem;
-    --font-size-xl: 5rem; */
+    --background-pink: #fd808618;
+    --background-blue: #29cdf615;
+    --background-green: #14a53f2c;
   }
 .orange {
     color: var(--primary-color);
@@ -78,6 +77,36 @@ h3 {
 }
 .flex {
     display: flex;
+}
+.bg-pink {
+    background-color: var(--background-pink);
+    padding: 20px;
+    text-align: start;
+    border-radius: 10px;
+}
+.bg-pink img{
+    width: 60px;
+    /* float: left; */
+}
+.bg-blue {
+    background-color: var(--background-blue);
+    padding: 20px;
+    text-align: start;
+    border-radius: 10px;
+}
+.bg-blue img{
+    width: 60px;
+    /* float: left; */
+}
+.bg-green {
+    background-color: var(--background-green);
+    padding: 20px;
+    text-align: start;
+    border-radius: 10px;
+}
+.bg-green img{
+    width: 60px;
+    /* float: left; */
 }
 .half-width {
     width: 50%;
@@ -142,6 +171,18 @@ button:hover {
     gap: 20px;
     padding: 10px;
   }
+.grid-container-4 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+    padding: 10px;
+  }
+.grid-container-5 {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    gap: 20px;
+    padding: 10px;
+  }
 .image-box {
     position: relative;
     text-align: center;
@@ -152,7 +193,7 @@ button:hover {
     filter: brightness(70%);
 }
 
-.hidden {
+.image-box-text {
     position: absolute;
     top: 40%;
     left: 50%;
