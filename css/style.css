@@ -56,16 +56,41 @@ body {
     margin-right: 0;
   }
 h1 {
-    font-size: 32px;
+    font-size: 42px;
+}
+h2 {
+    font-size: 36px;
+}
+.black {
+    color: var(--font-color);
 }
 .banner {
-    padding: 60px 40px;
+    padding: 100px 40px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
 }
 .center{
     text-align: center;
 }
 .flex {
     display: flex;
+}
+.half-width {
+    width: 50%;
+}
+.text-div {
+    padding: 40px 0;
+}
+.image-div {
+    padding:40px 0;
+}
+.image-div img{
+    width: 80%;
+    float: right;
+}
+.popular-tours {
+    margin-top: 120px;
 }
 .form-container {
     width : 70%;
@@ -74,6 +99,7 @@ h1 {
     background-color: #ffffff2c;
     border-radius: 10px;
     justify-content: space-between;
+    margin-top: 40px;
 }
 input {
     padding: 10px;
@@ -84,6 +110,7 @@ button {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
+    font-size: large;
     color: var(--font-white);
     background-color: var(--primary-color);
 }
